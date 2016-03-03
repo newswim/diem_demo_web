@@ -6,6 +6,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+.title-text {
+	font-family: 'Orbitron', sans-serif;
+}
+
+
+
+
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -3269,11 +3278,11 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #350E27;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #19212b;
 		}
 
 		.wrapper.fullscreen {
