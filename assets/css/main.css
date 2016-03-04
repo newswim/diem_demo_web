@@ -3266,7 +3266,7 @@
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #2F2B38;
 		}
 
 		.wrapper.style2 {
@@ -3930,12 +3930,13 @@
 #intro > .inner h1 {
 	color: rgb(151, 85, 87);
 	text-shadow: none;
-	transition: text-shadow 500ms;
+	transition: text-shadow 500ms ease-in, color 500ms ease-in;
 	cursor: default;
 }
 
 #intro > .inner h1:hover {
 	/* -webkit-filter: drop-shadow(0px 0px 54px rgba(151, 85, 87,.8)); */
-	text-shadow: -12px 25px 4px rgba(151,85,87,1);
-	transition: text-shadow 500ms;
+	text-shadow: -12px 13px 27px rgba(151,85,87,1);
+	transition: text-shadow 500ms ease-out, color 1000ms ease-out;
+	color: rgb(180, 85, 91);
 }
