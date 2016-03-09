@@ -2588,7 +2588,7 @@
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #7F0A54;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3262,7 +3262,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #272727;
+			background-color: #2F2B38;
 		}
 
 		.wrapper.style1-alt {
@@ -3543,7 +3543,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #1F0E0E;
+		background: #1B0C0C;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3917,12 +3917,28 @@
 					font-size: 1em;
 				}
 
+				.inner .diem-logo {
+					width: 70%;
+				}
+
 			}
 
 		@media screen and (max-width: 1280px) {
 
 			#intro {
 				background-attachment: scroll;
+			}
+
+			.inner .diem-logo {
+				width: 50%;
+			}
+
+		}
+
+		@media screen and (min-width: 1280px) {
+
+			.inner .diem-logo {
+				width: 65%;
 			}
 
 		}
