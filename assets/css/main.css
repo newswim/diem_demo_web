@@ -3939,7 +3939,7 @@
 
 	#intro:before {
 		background-attachment: inherit;
-		background-image: url('../img/curves.svg');
+		background-image: url('../img/waves.svg');
 		background-position: top left;
 		background-repeat: round;
 		background-size: cover;
@@ -4046,6 +4046,12 @@
 
 /* OUR PARTNERS */
 
+/*.partners-logo {
+	height: auto;
+	width: 300px;
+}*/
+
+
 #our-partners {
 	/*background-image:url(../../images/bg/team-bg.jpg);*/
 	padding: 2rem;
@@ -4070,7 +4076,9 @@
 .team img {
 	max-width: 100%;
 	height: auto;
-	padding: 0 10px;
+	width: 300px;
+	/*padding: 0 10px;*/
+	border: 2px solid black;
 }
 
 .partners-img {
