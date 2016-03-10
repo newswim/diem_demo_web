@@ -3932,6 +3932,10 @@
 					display: none;
 				}
 
+				.inner .diem-logo {
+					width: 80%;
+				}
+
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3941,7 +3945,7 @@
 				}
 
 				.inner .diem-logo {
-					width: 70%;
+					width: 100%;
 				}
 
 			}

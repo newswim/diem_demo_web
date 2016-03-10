@@ -28,9 +28,6 @@
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	/* THIS IS A CUSTOM ATTRIBUTE ADDED BY DIEM DIGITAL WEB DIVISION - 3/10/16 */
-	padding: 3rem 0rem 0rem 2rem;
-	/* end */
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
