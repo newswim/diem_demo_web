@@ -3292,7 +3292,7 @@
 
 		.wrapper.style1-grad {
 			background-image: url('../img/curves.svg'), linear-gradient(white, #D8D8D8) !important;
-			background-size: 150% 144%;
+			background-size: 150% 100%;
 		}
 
 		.wrapper.style1-alt {
