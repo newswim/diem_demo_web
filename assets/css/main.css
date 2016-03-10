@@ -1630,10 +1630,6 @@
 
 	}
 
-	body {
-		background: #312450;
-	}
-
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -4004,6 +4000,16 @@
 	padding: 2rem;
 }
 
+#team-slider {
+	padding: 0 2rem 0 2rem;
+}
+
+#our-partners > h2 {
+	color: #272727;
+	text-align: center;
+	font-weight: 300;
+}
+
 .team {
 	display: inline-block;
 	float: left;
@@ -4137,7 +4143,7 @@
   top: 0;
 }
 .arrow-left {
-  height: 70px;
+  height: 100px;
   margin-top: 85px;
 }
 @media only screen and (max-width: 1024px) {
@@ -4151,7 +4157,7 @@
   top: 0;
 }
 .arrow-right {
-  height: 70px;
+  height: 100px;
   margin-top: 85px;
 }
 @media only screen and (max-width: 1024px) {
