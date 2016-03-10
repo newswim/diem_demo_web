@@ -3290,10 +3290,10 @@
 			background-color: #7f7f7f;
 		}
 
-		.wrapper.style1-grad {
+		/*.wrapper.style1-grad {
 			background-image: url('../img/curves.svg'), linear-gradient(white, #D8D8D8) !important;
 			background-size: 150% 100%;
-		}
+		}*/
 
 		.wrapper.style1-alt {
 			background-color: #7A1519;
@@ -3934,11 +3934,11 @@
 /* Intro */
 
 	#intro {
-		/*background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-attachment: fixed;
+		background-image: url('../img/curves.svg'), linear-gradient(white, #D8D8D8) !important;
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;*/
+		background-size: 100% 100%;
 	}
 
 		#intro p {
