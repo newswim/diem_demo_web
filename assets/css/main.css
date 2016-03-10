@@ -2024,6 +2024,13 @@
 			border-color: rgba(255, 255, 255, 0.55) !important;
 		}
 
+		.button-dark:hover {
+			border-color: rgba(122, 21, 25, .8) !important;
+			background: rgba(122, 21, 25, .4);
+		}
+
+		
+
 			input[type="submit"]:hover:after,
 			input[type="reset"]:hover:after,
 			input[type="button"]:hover:after,
@@ -3284,7 +3291,8 @@
 		}
 
 		.wrapper.style1-grad {
-			background-image: linear-gradient(white, #D8D8D8) !important;
+			background-image: url('../img/curves.svg'), linear-gradient(white, #D8D8D8) !important;
+			background-size: cover;
 		}
 
 		.wrapper.style1-alt {
