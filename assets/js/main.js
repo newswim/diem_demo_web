@@ -207,4 +207,29 @@
 
 	});
 
+	/*==============================================================*/
+    // Owl Carousel
+  /*==============================================================*/
+
+
+
 })(jQuery);
+
+$("#team-slider").owlCarousel({
+	pagination : false,
+	navigation: true,
+	responsive: true,
+	navigationText: [
+		"<img src='assets/img/swiper/arrow-l-dark.svg' class='arrow-left'>",
+		"<img src='assets/img/swiper/arrow-r-dark.svg' class='arrow-right'>"
+	]
+});
+
+
+
+/* FormSpree e-mail inject */
+
+$(document).ready(function() {
+  var contactform =  document.getElementById('contact-form');
+  contactform.setAttribute('action', '//formspree.io/' + 'sales' + '@' + 'diemdigital' + '.' + 'com');
+})
