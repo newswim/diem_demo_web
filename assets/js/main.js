@@ -233,7 +233,7 @@ $("#team-slider").owlCarousel({
     itemsTabletSmall: false,
     itemsMobile : [479,1],
     singleItem : false,
-    itemsScaleUp : false,
+    itemsScaleUp : true,
 
     //Basic Speeds
     slideSpeed : 200,

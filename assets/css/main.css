@@ -3939,7 +3939,7 @@
 
 	#intro:before {
 		background-attachment: inherit;
-		background-image: url('../img/waves.svg');
+		background-image: url('../img/curves.svg');
 		background-position: top left;
 		background-repeat: round;
 		background-size: cover;
@@ -4078,7 +4078,7 @@
 	height: auto;
 	width: 300px;
 	/*padding: 0 10px;*/
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 }
 
 .partners-img {
