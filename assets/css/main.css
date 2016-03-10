@@ -2029,7 +2029,7 @@
 			background: rgba(122, 21, 25, .4);
 		}
 
-		
+
 
 			input[type="submit"]:hover:after,
 			input[type="reset"]:hover:after,
@@ -3953,12 +3953,12 @@
 				}
 
 				.inner .diem-logo {
-					width: 80%;
+					width: 90%;
 				}
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (min-width: 736px) {
 
 				#intro p {
 					font-size: 1em;
@@ -3977,7 +3977,14 @@
 			}
 
 			.inner .diem-logo {
-				width: 50%;
+				width: 70%;
+			}
+
+		}
+
+		@media screen and (max-width: 1024px) {
+			.inner .diem-logo {
+				width: 90%;
 			}
 
 		}
