@@ -1702,6 +1702,7 @@
 
 	p {
 		margin: 0 0 2em 0;
+		color: white;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2859,6 +2860,7 @@
 					border-left: 0;
 					margin: 0;
 					padding-left: 0;
+					color: white;
 				}
 
 			@media screen and (max-width: 480px) {
