@@ -4243,6 +4243,10 @@
 	margin-top: 15%;
 }
 
+.mt25 {
+	margin-top: 25%;
+}
+
 .mt30 {
 	margin-top: 30%;
 }
@@ -4253,4 +4257,12 @@
 
 .w75 {
 	width: 75% !important;
+}
+
+.__clear-one {
+	margin-top: 34%;
+}
+
+.__logo-biamp {
+	margin-top: 25%;
 }
