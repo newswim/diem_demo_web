@@ -256,11 +256,9 @@ $("#team-slider").owlCarousel({
 
 });
 
-
-
 /* FormSpree e-mail inject */
 
 $(document).ready(function() {
   var contactform =  document.getElementById('contact-form');
-  contactform.setAttribute('action', '//formspree.io/' + 'sales' + '@' + 'diemdigital' + '.' + 'com');
+  contactform.setAttribute('action', 'http://formspree.io/' + 'sales' + '@' + 'diemdigital' + '.' + 'com');
 })
