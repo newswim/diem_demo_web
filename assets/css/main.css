@@ -3032,7 +3032,7 @@
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		min-height: 22.5em;
+		/*min-height: 22.5em;*/
 	}
 
 		body.is-ie .spotlights > section {
@@ -3070,7 +3070,7 @@
 			}
 
 		.spotlights > section > .content {
-			padding: 1em 5em 2em 5em ;
+			padding: 3em 5em 2em 5em ;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3123,7 +3123,7 @@
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .content {
-				padding: 1em 4em 2em 4em ;
+				padding: 2em 4em 2em 4em ;
 				background-color: #292929 !important;
 				border-bottom: 1px solid rgba(250,250,250,.2);
 			}
