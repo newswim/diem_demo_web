@@ -207,4 +207,68 @@
 
 	});
 
+	/*==============================================================*/
+    // Owl Carousel
+  /*==============================================================*/
+
+
+
 })(jQuery);
+
+$("#team-slider").owlCarousel({
+	pagination : false,
+	navigation: true,
+	responsive: true,
+	navigationText: [
+		"<img src='assets/img/swiper/arrow-l-dark.svg' class='arrow-left'>",
+		"<img src='assets/img/swiper/arrow-r-dark.svg' class='arrow-right'>"
+	],
+
+	// Most important owl features
+    items : 5,
+    itemsCustom : false,
+    itemsDesktop : [1199,4],
+    itemsDesktopSmall : [980,3],
+    itemsTablet: [768,2],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
+    singleItem : false,
+    itemsScaleUp : true,
+
+    //Basic Speeds
+    slideSpeed : 200,
+    paginationSpeed : 800,
+    rewindSpeed : 1000,
+
+    // Responsive
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
+
+    //Lazy load
+    lazyLoad : true,
+    lazyFollow : true,
+    lazyEffect : "fade",
+
+    //Auto height
+    autoHeight : false,
+
+    //JSON
+    jsonPath : false,
+    jsonSuccess : false,
+
+    //Mouse Events
+    dragBeforeAnimFinish : true,
+    mouseDrag : true,
+    touchDrag : true,
+
+});
+
+
+
+/* FormSpree e-mail inject */
+
+$(document).ready(function() {
+  var contactform =  document.getElementById('contact-form');
+  contactform.setAttribute('action', '//formspree.io/' + 'sales' + '@' + 'diemdigital' + '.' + 'com');
+})

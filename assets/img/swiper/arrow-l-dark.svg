@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="78px" height="384px" viewBox="0 0 78 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-l</title>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M0,2.35812083e-07 L16.7741935,0 L78,191.999998 C78,191.999998 16.965807,383.39905 16.7741935,384 L0,383.999996 L60.9375,191.999998 L0,2.35812083e-07 Z" id="arrow-l" fill="rgba(33,33,33,.7)" sketch:type="MSShapeGroup" transform="translate(39.000000, 192.000000) scale(-1, 1) translate(-39.000000, -192.000000) "></path>
+    </g>
+</svg>
