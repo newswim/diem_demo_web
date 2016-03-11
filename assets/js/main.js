@@ -235,10 +235,6 @@ $("#team-slider").owlCarousel({
     singleItem : false,
     itemsScaleUp : true,
 
-    //Basic Speeds
-    slideSpeed : 200,
-    paginationSpeed : 800,
-    rewindSpeed : 1000,
 
     // Responsive
     responsive: true,
@@ -252,10 +248,6 @@ $("#team-slider").owlCarousel({
 
     //Auto height
     autoHeight : false,
-
-    //JSON
-    jsonPath : false,
-    jsonSuccess : false,
 
     //Mouse Events
     dragBeforeAnimFinish : true,
