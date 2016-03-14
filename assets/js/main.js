@@ -220,8 +220,8 @@ $("#team-slider").owlCarousel({
 	navigation: true,
 	responsive: true,
 	navigationText: [
-		"<img src='assets/img/swiper/arrow-l-dark.svg' class='arrow-left'>",
-		"<img src='assets/img/swiper/arrow-r-dark.svg' class='arrow-right'>"
+		"<img src='assets/img/swiper/arrow-l-dark.svg' class='arrow-btn'>",
+		"<img src='assets/img/swiper/arrow-r-dark.svg' class='arrow-btn'>"
 	],
 
 	// Most important owl features

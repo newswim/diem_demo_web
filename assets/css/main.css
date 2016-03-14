@@ -4204,28 +4204,19 @@
   left: 0;
   top: 0;
 }
-.arrow-left {
-  height: 60px;
-  /*margin-top: 60px;*/
+.arrow-btn {
+	height: 40px;
+	margin-top: 8px;
 }
-@media only screen and (max-width: 1024px) {
+/*@media only screen and (max-width: 1024px) {
   .arrow-left {
     margin-top: 32px;
   }
-}
+}*/
 .owl-next {
   position: absolute;
   right: 0;
   top: 0;
-}
-.arrow-right {
-  height: 60px;
-  /*margin-top: 60px;*/
-}
-@media only screen and (max-width: 1024px) {
-  .arrow-right {
-    margin-top: 32px;
-  }
 }
 
 /* Utility Classes */
