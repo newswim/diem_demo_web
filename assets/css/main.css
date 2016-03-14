@@ -4065,7 +4065,8 @@
 #our-partners > h2 {
 	color: #272727;
 	text-align: center;
-	font-weight: 300;
+	margin-bottom: 1em;
+	font-weight: 700;
 }
 
 .team {
@@ -4206,7 +4207,7 @@
 }
 .arrow-btn {
 	height: 40px;
-	margin-top: 8px;
+	margin-top: 6px;
 }
 /*@media only screen and (max-width: 1024px) {
   .arrow-left {
