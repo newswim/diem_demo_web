@@ -4053,8 +4053,9 @@
 
 
 #our-partners {
-	/*background-image:url(../../images/bg/team-bg.jpg);*/
 	padding: 2rem;
+	padding: 3rem;
+  padding-bottom: 4rem;
 }
 
 #team-slider {
@@ -4086,6 +4087,7 @@
   display: block;
   max-width: 100%;
   height: auto;
+	border-right: 1.4px solid #292929
 }
 
 @media (max-width: 1024px) {
@@ -4204,7 +4206,7 @@
 }
 .arrow-left {
   height: 60px;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
 }
 @media only screen and (max-width: 1024px) {
   .arrow-left {
@@ -4218,7 +4220,7 @@
 }
 .arrow-right {
   height: 60px;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
 }
 @media only screen and (max-width: 1024px) {
   .arrow-right {
