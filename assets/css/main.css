@@ -4088,13 +4088,19 @@
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.partners-img.border-right {
 	border-right: 1.4px solid #292929
 }
 
 @media (max-width: 1024px) {
-  .partners-img {
+  /*.partners-img {
     max-width: 70%;
-  }
+  }*/
+	.partners-img.border-right {
+		border-right: none;
+	}
 }
 
 .team-info {
@@ -4204,20 +4210,20 @@
   position: absolute;
   left: 0;
   top: 0;
-	height: 150px;
-	width: 60px;
-	margin-top: -50px;
+	height: 228px;
+	width: 80px;
+	margin-top: -100px;
 	margin-left: -20px;
 }
 .arrow-btn {
-	height: 40px;
-	margin-top: 64px;
+	height: 30px;
+  margin-top: 150%;
 }
 .arrow-left {
-	margin-left: 20px;
+	margin-left: 40px;
 }
 .arrow-right {
-	margin-left: 40px;
+	margin-left: 36px;
 }
 /*@media only screen and (max-width: 1024px) {
   .arrow-left {
@@ -4225,13 +4231,13 @@
   }
 }*/
 .owl-next {
-  position: absolute;
+	position: absolute;
   right: 0;
   top: 0;
-	height: 150px;
-	width: 60px;
-	margin-top: -50px;
-	margin-right: -20px;
+	height: 228px;
+	width: 80px;
+	margin-top: -100px;
+	margin-right: -48px;
 }
 
 /* Utility Classes */

@@ -226,13 +226,13 @@ $("#team-slider").owlCarousel({
 
 	// Most important owl features
     items : 4,
-    itemsCustom : false,
+    // itemsCustom : false,
     itemsDesktop : [1199,3],
     itemsDesktopSmall : [980,3],
     itemsTablet: [768,2],
     itemsTabletSmall: false,
-    itemsMobile : [480,1],
-    singleItem : false,
+    itemsMobile : [479,1],
+    // singleItem : false,
     itemsScaleUp : true,
 
 
