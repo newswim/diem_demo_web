@@ -4204,10 +4204,20 @@
   position: absolute;
   left: 0;
   top: 0;
+	height: 150px;
+	width: 60px;
+	margin-top: -50px;
+	margin-left: -20px;
 }
 .arrow-btn {
 	height: 40px;
-	margin-top: 6px;
+	margin-top: 56px;
+}
+.arrow-left {
+	margin-left: 20px;
+}
+.arrow-right {
+	margin-left: 40px;
 }
 /*@media only screen and (max-width: 1024px) {
   .arrow-left {
@@ -4218,6 +4228,10 @@
   position: absolute;
   right: 0;
   top: 0;
+	height: 150px;
+	width: 60px;
+	margin-top: -50px;
+	margin-right: -20px;
 }
 
 /* Utility Classes */

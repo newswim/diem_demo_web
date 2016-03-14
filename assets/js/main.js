@@ -220,18 +220,18 @@ $("#team-slider").owlCarousel({
 	navigation: true,
 	responsive: true,
 	navigationText: [
-		"<img src='assets/img/swiper/arrow-l-dark.svg' class='arrow-btn'>",
-		"<img src='assets/img/swiper/arrow-r-dark.svg' class='arrow-btn'>"
+		"<img src='assets/img/swiper/arrow-l-dark.svg' class='arrow-btn arrow-left'>",
+		"<img src='assets/img/swiper/arrow-r-dark.svg' class='arrow-btn arrow-right'>"
 	],
 
 	// Most important owl features
-    items : 5,
+    items : 4,
     itemsCustom : false,
-    itemsDesktop : [1199,4],
+    itemsDesktop : [1199,3],
     itemsDesktopSmall : [980,3],
     itemsTablet: [768,2],
     itemsTabletSmall: false,
-    itemsMobile : [479,1],
+    itemsMobile : [480,1],
     singleItem : false,
     itemsScaleUp : true,
 
