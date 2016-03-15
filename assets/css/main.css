@@ -4077,14 +4077,6 @@
 	max-width: 100%;
 }
 
-.team img {
-	max-width: 100%;
-	height: auto;
-	width: 300px;
-	/*padding: 0 10px;*/
-	/*border: 2px solid black;*/
-}
-
 .partners-img {
   display: block;
   max-width: 100%;
@@ -4095,116 +4087,20 @@
 	border-right: 1.4px solid #292929
 }
 
+
+
 @media (max-width: 1024px) {
-  /*.partners-img {
-    max-width: 70%;
-  }*/
 	.partners-img.border-right {
 		border-right: none;
 	}
+
+	.arrow-btn {
+		height: 35px !important;
+    margin-top: 156% !important;
+	}
 }
 
-.team-info {
-	font-weight:700;
-	font-size:14px;
-	opacity:0;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-	-moz-transform: translateY(78px);
-	-webkit-transform: translateY(78px);
-	-o-transform: translateY(78px);
-	-ms-transform: translateY(78px);
-	transform: translateY(78px);
-}
 
-.team:hover .team-info {
-	opacity:1;
-	-moz-transform: translateY(0px);
-	-webkit-transform: translateY(0px);
-	-o-transform: translateY(0px);
-	-ms-transform: translateY(0px);
-	transform: translateY(0px);
-}
-
-.team-info > h2, .team-info > p {
-	color: black;
-}
-
-.team img {
-	display:inline-block;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-
-/*.team:hover img {
-	opacity:0.4;
-}*/
-
-/*.team-info h2 {
-	margin-bottom:0px;
-	margin-top:15px;
-}
-
-.team-info li a {
-	font-size:16px;
-}
-
-.team-info li a:hover {
-	color:#43575d;
-}*/
-
-.team-slider-left, .team-slider-right {
-	position:absolute;
-	top:0;
-	height:174px;
-	width:70px;
-	background-color:#43575d;
-	color:#fff;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-
-.team-slider-left i,
-.team-slider-right i {
-	font-size: 45px;
-	position: absolute;
-	top: 50%;
-	left:50%;
-	line-height: 45px;
-	margin-top: -25px;
-}
-
-/*.team-slider-left {
-	left:0;
-}
-
-.team-slider-right {
-	right:0;
-}*/
-
-.team-slider-left:hover,
-.team-slider-right:hover {
-	background-color:#fff;
-	color:#43575d;
-}
-
-.biamp-logo {
-	width: 100%;
-}
-
-.lg-logo {
-	width: 70%;
-	margin-top: 8%;
-}
 
 /* Owl Carousel buttons */
 .owl-prev {
@@ -4217,9 +4113,24 @@
 	margin-left: -20px;
 }
 .arrow-btn {
-	height: 30px;
-  margin-top: 150%;
+	height: 40px;
+	margin-top: 163%;
 }
+
+@media (max-width: 980) {
+	.arrow-btn {
+		height: 35px !important;
+    margin-top: 150% !important;
+	}
+}
+
+@media (max-width: 1199) {
+	.arrow-btn {
+		height: 40px !important;
+    margin-top: 160% !important;
+	}
+}
+
 .arrow-left {
 	margin-left: 10px;
 }

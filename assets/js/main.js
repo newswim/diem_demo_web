@@ -227,7 +227,7 @@ $("#team-slider").owlCarousel({
 	// Most important owl features
     items : 4,
     // itemsCustom : false,
-    itemsDesktop : [1199,3],
+    itemsDesktop : [1199,4],
     itemsDesktopSmall : [980,3],
     itemsTablet: [768,2],
     itemsTabletSmall: false,
@@ -237,9 +237,9 @@ $("#team-slider").owlCarousel({
 
 
     // Responsive
-    responsive: true,
-    responsiveRefreshRate : 200,
-    responsiveBaseWidth: window,
+    // responsive: true,
+    // responsiveRefreshRate : 200,
+    // responsiveBaseWidth: window,
 
     //Lazy load
     lazyLoad : true,
