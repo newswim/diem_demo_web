@@ -220,8 +220,8 @@ $("#team-slider").owlCarousel({
 	navigation: true,
 	responsive: true,
 	navigationText: [
-		"<img src='assets/img/swiper/arrow-l-dark.svg' class='arrow-btn arrow-left'>",
-		"<img src='assets/img/swiper/arrow-r-dark.svg' class='arrow-btn arrow-right'>"
+		"",
+		""
 	],
 
 	// Most important owl features
@@ -237,9 +237,9 @@ $("#team-slider").owlCarousel({
 
 
     // Responsive
-    // responsive: true,
-    // responsiveRefreshRate : 200,
-    // responsiveBaseWidth: window,
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
 
     //Lazy load
     lazyLoad : true,
@@ -247,7 +247,7 @@ $("#team-slider").owlCarousel({
     lazyEffect : "fade",
 
     //Auto height
-    autoHeight : false,
+    autoHeight : true,
 
     //Mouse Events
     dragBeforeAnimFinish : true,
